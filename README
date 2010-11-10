@@ -4,7 +4,12 @@ FIXME: write description
 
 ## Usage
 
-FIXME: write
+add to your clojurebot config
+
+ :addressed-plugins [[clojurebot.hudson build? do-a-build]]
+ :hudson "http://url.to.hudson"
+ :hudson-credentials ["user.name" "pass.word"]
+ :plugin-directory "/some/dir/containing/jar/"
 
 ## Installation
 
